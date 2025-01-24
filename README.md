@@ -18,3 +18,6 @@
     Flights
 
     Search
+
+# Welcome to Flights Service
+   create .env and inside config create config.json with piece of code!!
