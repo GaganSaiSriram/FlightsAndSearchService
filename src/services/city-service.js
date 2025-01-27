@@ -9,7 +9,7 @@ class CityService {
 
           try {
 
-              const city = await this.cityRepository.createCity(data);
+              const city = await this.cityRepository.createCity({name:data.name});
 
                 return city;
             
