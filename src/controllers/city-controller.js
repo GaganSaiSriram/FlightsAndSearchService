@@ -68,7 +68,7 @@ const get = async function (req,res,next){
         return res.status(200).json({
             data : response,
             success : true,
-            message : 'Successfully created a city',
+            message : 'Successfully fetched a city',
             err: {}
         })
        
